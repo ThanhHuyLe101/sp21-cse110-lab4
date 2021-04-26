@@ -62,31 +62,49 @@ part1b-question12:
   e. student.courseLoad[0]
   
 part1b-question13:
+  
   a. ‘3’ + 2 = '32', a string because string + means concatenation
+  
   b. ‘3’ - 2 = 1, a number because string - number means it's converted to a number
+  
   c. 3 + null = 3, a number because null gets ToNumber(), turning it to 0 
+  
   d. ‘3’ + null = '3null', a string because string concatenation and null gets turned to the string 'null'
+  
   e. true + 3 = 4, a number because true = 1 in arithmetic
+  
   f. false + null = 0, because false and null is turned to 0 in arithmetic
+  
   g. '3' + undefined = '3undefined', because string concaternation and underfined is turned to string
+  
   h. '3' - undefined = NaN, the - after string turns '3' into a number but a number - undefined = NaN
 
 part1b-question14:
+  
   a. ‘2’ > 1 = true, because 2 is converted into a number
+  
   b. ‘2’ < ‘12’ = false, strings are compared leter by letter, and '2' > '1' 
+  
   c. 2 == ‘2’ = true, in ==, different kinds are turned to numbers, so 2 == 2
+  
   d. 2 === ‘2’ = false, in ==, types must be the same. 
+  
   e. true == 2 = false, true is turned to 1
+  
   f. true === Boolean(2) = true, since 2 > 0, Boolean turns it to a boolean true, same type same value. 
   
 part1b-question15:
+  
   == compares with type conversion, so 2 == '2'
+  
   === compares without type conversion, so the type must be the same as well.
 
 part1b-question17:
+ 
  modifyArray([1,2,3], doSomething) would return the array [2, 4, 6] because it applies the callback function to each item of the array,
    then make a newArray using the results
 
 part1b-question19:
+ 
  It outputs 1 4 3 2
 
