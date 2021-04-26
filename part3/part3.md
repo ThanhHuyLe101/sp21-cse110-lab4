@@ -1,6 +1,7 @@
 ## Part 1
 
 ![image](https://user-images.githubusercontent.com/64934573/116034200-c08f2f80-a617-11eb-93b4-7a7b6b6ecdef.png)
+
 Question 1: The bug is that num1 and num2 are strings and so they're concaternated instead of added up.
 
 Question 2: I fixed it by converting num1 and num2 to numbers using Number().
