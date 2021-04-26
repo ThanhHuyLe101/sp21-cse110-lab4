@@ -86,5 +86,7 @@ part1b-question15:
 part1b-question17:
  modifyArray([1,2,3], doSomething) would return the array [2, 4, 6] because it applies the callback function to each item of the array,
    then make a newArray using the results
-  
- 
+
+part1b-question19:
+ It outputs 1 4 3 2
+
