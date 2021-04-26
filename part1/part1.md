@@ -83,6 +83,8 @@ part1b-question15:
   == compares with type conversion, so 2 == '2'
   === compares without type conversion, so the type must be the same as well.
 
-
+part1b-question17:
+ modifyArray([1,2,3], doSomething) would return the array [2, 4, 6] because it applies the callback function to each item of the array,
+   then make a newArray using the results
   
  
